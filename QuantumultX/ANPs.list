@@ -1,0 +1,89 @@
+# Apple Rules for QuantumultX
+# Converted from blackmatrix7/ios_rule_script
+# PROCESS-NAME rules removed (not supported in QX/iOS)
+# force-policy=direct when imported via filter_remote
+
+# NAME: Apple
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+host, apple-events.akamaized.net, direct
+host, appleworldwidedeveloper.hb-api.omtrdc.net, direct
+host, appleworldwidedeveloper.sc.omtrdc.net, direct
+host, beatselectronicsllc.tt.omtrdc.net, direct
+host, e16991.b.akamaiedge.net, direct
+host, edge.apple, direct
+host, icons.axm-usercontent-apple.com, direct
+host, lookup-api.apple.com.edgekey.net, direct
+host, p-events-delivery.akamaized.net, direct
+host-suffix, 100beatscheap.com, direct
+host-suffix, apple.com, direct
+host-suffix, apple.cn, direct
+host-suffix, apple.co.jp, direct
+host-suffix, apple.com.cn, direct
+host-suffix, apple-mapkit.com, direct
+host-suffix, apple-dns.cn, direct
+host-suffix, icloud.com, direct
+host-suffix, icloud.com.cn, direct
+host-suffix, icloud.cn, direct
+host-suffix, push.apple.com, direct
+host-suffix, me.com, direct
+host-suffix, mzstatic.com, direct
+host-suffix, itunes.com, direct
+host-suffix, itun.es, direct
+host-suffix, appleid.com, direct
+host-suffix, apple-cloudkit.com, direct
+host-suffix, cdn-apple.com, direct
+host-suffix, appsto.re, direct
+host-suffix, digicert.com, direct
+host-suffix, aaplimg.com, direct
+host-suffix, crashlytics.com, direct
+host-suffix, shazam.com, direct
+host-suffix, swift.org, direct
+host-suffix, webkit.org, direct
+host-suffix, apple.news, direct
+host-suffix, mac.com, direct
+host-suffix, appstore.com, direct
+host-suffix, applemusic.com, direct
+host-suffix, appletv.com, direct
+host-keyword, apple-support.akadns.net, direct
+host-keyword, apple.com.akadns.net, direct
+host-keyword, apple.com.edgekey.net, direct
+host-keyword, buy.itunes.apple.com, direct
+host-keyword, smp-device, direct
+host-keyword, testflight, direct
+host-keyword, icloud.com.akadns.net, direct
+ip-cidr, 17.0.0.0/8, direct, no-resolve
+ip-cidr, 139.178.128.0/18, direct, no-resolve
+ip-cidr, 144.178.0.0/19, direct, no-resolve
+ip-cidr, 144.178.36.0/22, direct, no-resolve
+ip-cidr, 144.178.48.0/20, direct, no-resolve
+ip-cidr, 192.35.50.0/24, direct, no-resolve
+ip-cidr, 198.183.17.0/24, direct, no-resolve
+ip-cidr, 205.180.175.0/24, direct, no-resolve
+ip-cidr, 63.92.224.0/19, direct, no-resolve
+ip-cidr, 65.199.22.0/23, direct, no-resolve
+ip6-cidr, 2403:300::/32, direct, no-resolve
+ip6-cidr, 2620:149::/32, direct, no-resolve
+ip6-cidr, 2a01:b740::/32, direct, no-resolve
+user-agent, *FindMyiPhone?, direct
+user-agent, *Music?, direct
+user-agent, *com.apple.Maps?, direct
+user-agent, *com.apple.mobileme.fmip1, direct
+user-agent, FMDClient*, direct
+user-agent, FMFD*, direct
+user-agent, FindMyFriends*, direct
+user-agent, FindMyiPhone*, direct
+user-agent, Maps*, direct
+user-agent, Wallet*, direct
+user-agent, com.apple.Maps, direct
+user-agent, com.apple.appstored*, direct
+user-agent, fmflocatord*, direct
+user-agent, geod*, direct
+user-agent, locationd*, direct
+user-agent, passd*, direct
+user-agent, Music*, direct
+user-agent, AppleNews*, direct
+user-agent, com.apple.news*, direct
+user-agent, com.apple.trustd*, direct
+user-agent, AppleTV*, direct
+user-agent, com.apple.tv*, direct
